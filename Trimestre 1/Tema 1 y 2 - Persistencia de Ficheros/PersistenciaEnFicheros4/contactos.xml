@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<contactos>
+    <contacto id="c001">
+        <nombre>José</nombre>
+        <apellido>García</apellido>
+        <correos>
+            <trabajo>jrgarcia@iesmarenostrum.es</trabajo>
+        </correos>
+        <telefonos>
+            <movil>6161616161</movil>
+        </telefonos>
+    </contacto>
+    <contacto id="c002">
+        <nombre>Paco</nombre>
+        <apellido>Perez</apellido>
+        <correos>
+            <trabajo>pperez@iesmarenostrum.es</trabajo>
+        </correos>
+        <telefonos>
+            <fijo>6161616161</fijo>
+        </telefonos>
+    </contacto>
+</contactos>

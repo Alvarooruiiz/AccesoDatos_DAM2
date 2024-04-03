@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listaJugadores>
+    <jugadores>
+        <jugador>
+            <nombre>Alvaro</nombre>
+            <apodo>Ruiz</apodo>
+            <puesto>central</puesto>
+            <dorsal>4</dorsal>
+            <descripcion>asd</descripcion>
+        </jugador>
+        <jugador>
+            <nombre>Jose</nombre>
+            <apodo>Pepe</apodo>
+            <puesto>lateral</puesto>
+            <dorsal>6</dorsal>
+            <descripcion>asdl</descripcion>
+        </jugador>
+    </jugadores>
+</listaJugadores>

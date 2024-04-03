@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <item>
+        <Titulo>6 Hit Combo</Titulo>
+        <Semilla>http://6hitcombo.blogspot.com</Semilla>
+        <Estado>Inactiva</Estado>
+        <Tipo_de_recolección>Selectiva</Tipo_de_recolección>
+        <Frecuencia_>Anual</Frecuencia_>
+        <Profundidad>Inicio y 2 niveles</Profundidad>
+        <Tamaño>Pequeno</Tamaño>
+        <Palabras_clave>Videojuego / Blogs de comunicación social</Palabras_clave>
+        <Materia>79 Juegos. Espectáculos. Deportes</Materia>
+    </item>
+    <item>
+        <Titulo>8 bits de poder</Titulo>
+        <Semilla>http://8bitsdepoder.blogspot.com</Semilla>
+        <Estado>Activa</Estado>
+        <Tipo_de_recolección>Selectiva</Tipo_de_recolección>
+        <Frecuencia_>Mensual</Frecuencia_>
+        <Profundidad>Inicio y 2 niveles</Profundidad>
+        <Tamaño>Pequeno</Tamaño>
+        <Palabras_clave>Videojuego / Blogs de comunicación social</Palabras_clave>
+        <Materia>79 Juegos. Espectáculos. Deportes</Materia>
+    </item>
+    <item>
+        <Titulo>AAMSX. Associació d'Amics del MSX</Titulo>
+        <Semilla>http://aamsx.com</Semilla>
+        <Estado>Activa</Estado>
+        <Tipo_de_recolección>Selectiva</Tipo_de_recolección>
+        <Frecuencia_>Anual</Frecuencia_>
+        <Profundidad>Inicio y 2 niveles</Profundidad>
+        <Tamaño>Pequeno</Tamaño>
+        <Palabras_clave>Videojuego</Palabras_clave>
+        <Materia>79 Juegos. Espectáculos. Deportes</Materia>
+    </item>
+    <item>
+        <Titulo>AstroChat y AstroChat Mujeres Espaciales, ¡Explora el universo mientras te echas una risas!</Titulo>
+        <Semilla>http://astrochat.org</Semilla>
+        <URL_adicionales>http://astrochat.org/astrochatmujeresespaciales/index.html - http://astrochat.org/juegaonline/</URL_adicionales>
+        <Estado>Inactiva</Estado>
+        <Tipo_de_recolección>Selectiva</Tipo_de_recolección>
+        <Frecuencia_>Unica</Frecuencia_>
+        <Profundidad>Host</Profundidad>
+        <Tamaño>Grande</Tamaño>
+        <Palabras_clave>Videojuego / Espacio / Astronautas / Científicos / Mujeres / Centíficas</Palabras_clave>
+        <Materia>79 Juegos. Espectáculos. Deportes</Materia>
+    </item>
+    <item>
+        <Titulo>Deus Ex Machina: Video Games Magazine</Titulo>
+        <Semilla>http://deusexmachina.es</Semilla>
+        <Estado>Inactiva</Estado>
+        <Tipo_de_recolección>Selectiva</Tipo_de_recolección>
+        <Frecuencia_>Unica</Frecuencia_>
+        <Profundidad>Host</Profundidad>
+        <Tamaño>Pequeno</Tamaño>
+        <Palabras_clave>Videojuego / Revistas Digitales</Palabras_clave>
+        <Materia>79 Juegos. Espectáculos. Deportes</Materia>
+    </item>
+    <item>
+        <Titulo>El retroconsolero</Titulo>
+        <Semilla>http://elretroconsolero.blogspot.com</Semilla>
+        <Estado>Activa</Estado>
+        <Tipo_de_recolección>Selectiva</Tipo_de_recolección>
+        <Frecuencia_>Mensual</Frecuencia_>
+        <Profundidad>Inicio y 2 niveles</Profundidad>
+        <Tamaño>Pequeno</Tamaño>
+        <Palabras_clave>Videojuego / Blogs de comunicación social</Palabras_clave>
+        <Materia>79 Juegos. Espectáculos. Deportes</Materia>
+    </item>
+    <item>
+        <Titulo>Games from Spain - Directorio Oficial de la Industria Española del Videojuego</Titulo>
+        <Semilla>http://es.gamespain.es</Semilla>
+        <Estado>Activa</Estado>
+        <Tipo_de_recolección>Selectiva</Tipo_de_recolección>
+        <Frecuencia_>Mensual</Frecuencia_>
+        <Profundidad>Inicio y 2 niveles</Profundidad>
+        <Tamaño>Pequeno</Tamaño>
+        <Palabras_clave>videojuegos / Empresas informáticas / España / Directorio</Palabras_clave>
+        <Materia>79 Juegos. Espectáculos. Deportes</Materia>
+    </item>
+    <item>
+        <Titulo>estudiofuture: Experiencias de Realidad Virtual Impactantes</Titulo>
+        <Semilla>http://estudiofuture.com/es/</Semilla>
+        <Estado>Activa</Estado>
+        <Tipo_de_recolección>Selectiva</Tipo_de_recolección>
+        <Frecuencia_>Mensual</Frecuencia_>
+        <Profundidad>Inicio y 2 niveles</Profundidad>
+        <Tamaño>Mediano</Tamaño>
+        <Palabras_clave>Videojuego / Realidad virtual / Empresas pequeñas</Palabras_clave>
+        <Materia>79 Juegos. Espectáculos. Deportes</Materia>
+    </item>
+</list>

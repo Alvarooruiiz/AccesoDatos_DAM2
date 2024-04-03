@@ -1,0 +1,2 @@
+Alvaro;Ruiz;central;4;asd
+Jose;Pepe;lateral;6;asdl

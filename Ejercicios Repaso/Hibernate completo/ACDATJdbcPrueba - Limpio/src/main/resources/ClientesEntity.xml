@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="org.acdat.XML.ClientesEntity">
+        <table name="clientes" schema="public" catalog="HibernatePrueba"/>
+        <attributes>
+            <id name="clienteId">
+                <column name="cliente_id" precision="-1"/>
+            </id>
+            <basic name="nombreCliente">
+                <column name="nombre_cliente" length="100"/>
+            </basic>
+            <basic name="correoCliente">
+                <column name="correo_cliente" nullable="false" length="100"/>
+            </basic>
+            <basic name="telefonoCliente">
+                <column name="telefono_cliente" nullable="false" length="20"/>
+            </basic>
+            <one-to-many name="clientesDestinosByClienteId" mapped-by="clientesByClienteId"
+                         target-entity="org.acdat.XML.ClientesDestinosEntity"/>
+        </attributes>
+    </entity>
+</entity-mappings>

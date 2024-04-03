@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<libreria>
+    <libros>
+        <libro isbn="123123123">
+            <titulo>Don quijote</titulo>
+            <autor>Sancho Panza</autor>
+        </libro>
+        <libro isbn="231231">
+            <titulo>Don cipote</titulo>
+            <autor>Santaa Panza</autor>
+        </libro>
+    </libros>
+    <nombre>Mi libreria</nombre>
+</libreria>

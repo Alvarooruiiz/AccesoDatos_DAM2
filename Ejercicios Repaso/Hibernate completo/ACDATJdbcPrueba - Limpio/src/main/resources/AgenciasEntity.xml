@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="org.acdat.XML.AgenciasEntity">
+        <table name="agencias" schema="public" catalog="HibernatePrueba"/>
+        <attributes>
+            <id name="agenciaId">
+                <column name="agencia_id" precision="-1"/>
+            </id>
+            <basic name="nombreAgencia">
+                <column name="nombre_agencia" length="100"/>
+            </basic>
+            <basic name="direccionAgencia">
+                <column name="direccion_agencia" nullable="false"/>
+            </basic>
+            <basic name="telefonoAgencia">
+                <column name="telefono_agencia" nullable="false" length="20"/>
+            </basic>
+            <one-to-many name="destinosAgenciasByAgenciaId" mapped-by="agenciasByAgenciaId"
+                         target-entity="org.acdat.XML.DestinosAgenciasEntity"/>
+        </attributes>
+    </entity>
+</entity-mappings>

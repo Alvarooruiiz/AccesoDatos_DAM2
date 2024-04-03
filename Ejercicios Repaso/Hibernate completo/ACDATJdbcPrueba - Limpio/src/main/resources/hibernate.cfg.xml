@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:postgresql://localhost:5432/HibernatePrueba</property>
+    <property name="connection.driver_class">org.postgresql.Driver</property>
+    <property name="connection.username">postgres</property>
+    <property name="connection.password">1234</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.show_sql">true</property>
+    <mapping class="org.acdat.entitiesJPA.AgenciaJPA"/>
+    <mapping class="org.acdat.entitiesJPA.ClienteDestinoJPA"/>
+    <mapping class="org.acdat.entitiesJPA.ClienteJPA"/>
+    <mapping class="org.acdat.entitiesJPA.DestinoAgenciaJPA"/>
+    <mapping class="org.acdat.entitiesJPA.DestinoJPA"/>
+    <mapping class="org.acdat.entitiesJPA.VueloJPA"/>
+    <mapping resource="AgenciasEntity.xml"/>
+    <mapping resource="ClientesDestinosEntity.xml"/>
+    <mapping resource="ClientesEntity.xml"/>
+    <mapping resource="DestinosAgenciasEntity.xml"/>
+    <mapping resource="DestinosEntity.xml"/>
+    <mapping resource="VuelosEntity.xml"/>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

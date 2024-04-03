@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+  <persistence-unit name="default">
+
+      <mapping-file>AgenciasEntity.xml</mapping-file>
+      <mapping-file>ClientesEntity.xml</mapping-file>
+      <mapping-file>ClientesDestinosEntity.xml</mapping-file>
+      <mapping-file>DestinosEntity.xml</mapping-file>
+      <mapping-file>DestinosAgenciasEntity.xml</mapping-file>
+      <mapping-file>VuelosEntity.xml</mapping-file>
+      <properties>
+          <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/HibernatePrueba"/>
+          <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
+          <property name="hibernate.connection.username" value="postgres"/>
+          <property name="hibernate.connection.password" value="1234"/>
+      </properties>
+  </persistence-unit>
+</persistence>

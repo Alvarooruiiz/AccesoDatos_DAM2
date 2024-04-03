@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="org.acdat.XML.ClientesDestinosEntity">
+        <table name="clientes_destinos" schema="public" catalog="HibernatePrueba"/>
+        <id-class class="org.acdat.XML.ClientesDestinosEntityPK"/>
+        <attributes>
+            <id name="clienteId">
+                <column name="cliente_id" precision="-1" insertable="false" updatable="false"/>
+            </id>
+            <id name="destinoId">
+                <column name="destino_id" precision="-1" insertable="false" updatable="false"/>
+            </id>
+            <many-to-one name="clientesByClienteId" optional="true" target-entity="org.acdat.XML.ClientesEntity">
+                <join-column name="cliente_id" referenced-column-name="cliente_id"/>
+            </many-to-one>
+            <many-to-one name="destinosByDestinoId" optional="true" target-entity="org.acdat.XML.DestinosEntity">
+                <join-column name="destino_id" referenced-column-name="destino_id"/>
+            </many-to-one>
+        </attributes>
+    </entity>
+</entity-mappings>

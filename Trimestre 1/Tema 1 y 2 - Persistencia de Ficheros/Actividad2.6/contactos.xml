@@ -1,0 +1,16 @@
+<contactos>
+    <contacto id="1">
+        <nombre>Juan</nombre>
+        <apellidos>Pérez García</apellidos>
+        <movil>123-456-7890</movil>
+        <trabajo>987-654-3210</trabajo>
+        <casa>555-123-4567</casa>
+    </contacto>
+    <contacto id="2">
+        <nombre>Maria</nombre>
+        <apellidos>López Rodríguez</apellidos>
+        <movil>111-222-3333</movil>
+        <trabajo>444-555-6666</trabajo>
+        <casa>777-888-9999</casa>
+    </contacto>
+</contactos>
